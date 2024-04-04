@@ -1,0 +1,8 @@
+.buttonTop{
+    -fx-background-color: #87255b;
+    -fx-min-width: 25px;
+    -fx-min-height: 25px;
+    -fx-max-width: 25px;
+    -fx-max-height: 25px;
+    -fx-cursor: hand;
+}

@@ -1,0 +1,35 @@
+.albumTxt{
+    /* Change the font color to white */
+    -fx-fill: white;
+    -fx-font-size: 14;
+}
+
+.titleTxt{
+    /* Change the font color to white */
+    -fx-fill: white;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+.artistTxt{
+    /* Change the font color to white */
+    -fx-fill: white;
+    -fx-font-size: 16;
+}
+
+.dateTxt{
+    /* Change the font color to white */
+    -fx-fill: white;
+    -fx-font-size: 12;
+}
+
+.nbTitlesTxt{
+    /* Change the font color to white */
+    -fx-fill: white;
+    -fx-font-size: 12;
+}
+
+.albumScroll {
+    -fx-background: #061826;
+    -fx-border-color: #061826;
+}

@@ -1,0 +1,14 @@
+.albumScroll {
+    -fx-background: #061826;
+    -fx-border-color: #061826;
+}
+
+.album-title{
+    -fx-font-size: 16;
+    -fx-fill: white;
+}
+
+.album-artist{
+    -fx-font-size: 14;
+    -fx-fill: white;
+}

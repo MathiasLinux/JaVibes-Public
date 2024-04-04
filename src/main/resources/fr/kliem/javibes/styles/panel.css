@@ -1,0 +1,11 @@
+.panel{
+    -fx-background-color: #87255b;
+    -fx-background-radius: 0 40 40 0;
+}
+
+.buttonPanel{
+    -fx-background-color: none;
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+    -fx-cursor: hand;
+}

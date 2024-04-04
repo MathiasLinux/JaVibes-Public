@@ -1,0 +1,9 @@
+.searchBar{
+    -fx-background-color: #0d3352;
+    -fx-border-color: #02090e;
+    -fx-border-width: 1;
+    -fx-border-radius: 5;
+    -fx-min-height: 3em;
+    -fx-max-height: 3em;
+    -fx-text-fill: white;
+}

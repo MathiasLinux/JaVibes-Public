@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane fx:id="panel" alignment="TOP_CENTER" minWidth="200.0" styleClass="panel" stylesheets="@styles/panel.css" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.kliem.javibes.JaVibesPanelController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" percentHeight="45.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <children>
+        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+            <image>
+                <Image url="@logo.png" />
+            </image>
+        </ImageView>
+        <GridPane alignment="TOP_CENTER" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="homePanel" mnemonicParsing="false" styleClass="buttonPanel" stylesheets="@styles/panel.css" text="Home" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+                <Button fx:id="searchPanel" alignment="CENTER" layoutX="33.0" layoutY="29.0" mnemonicParsing="false" styleClass="buttonPanel" stylesheets="@styles/panel.css" text="Search" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                <Button fx:id="playlistPanel" alignment="CENTER" layoutX="30.0" layoutY="91.0" mnemonicParsing="false" styleClass="buttonPanel" stylesheets="@styles/panel.css" text="Playlists" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+                <Button fx:id="albumsPanel" alignment="CENTER" layoutX="44.0" layoutY="106.0" mnemonicParsing="false" styleClass="buttonPanel" stylesheets="@styles/panel.css" text="Albums" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                <Button fx:id="artistsPanel" alignment="CENTER" layoutX="42.0" layoutY="120.0" mnemonicParsing="false" styleClass="buttonPanel" stylesheets="@styles/panel.css" text="Artists" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER" />
+                <Button fx:id="tracksPanel" alignment="CENTER" mnemonicParsing="false" styleClass="buttonPanel" stylesheets="@styles/panel.css" text="Tracks" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER" />
+            </children>
+        </GridPane>
+        <Button fx:id="settingsPanelButton" mnemonicParsing="false" styleClass="buttonPanel" stylesheets="@styles/panel.css" text="Settings" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM" />
+    </children>
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+</GridPane>
